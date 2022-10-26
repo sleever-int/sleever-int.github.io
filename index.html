@@ -7,14 +7,17 @@
 </head>
 <body>
     
-<header id='header' class="flex">
-    <img class='logo' src="./images/logo.svg">
+<header id='header' class="flex topnav">
+    <img class='logo active' src="./images/logo.svg">
     <h1>SLEEVER</h1>
-    <ul class="margin">
+    <ul id="myLinks" class="margin">
         <li class="navlink"><a style="color:white;text-decoration:none;" href="https://sleever-machines.com">Site Machines</a></li>
         <li class="navlink"><a style="color:white;text-decoration:none;" href="https://sleever.com">Site institutionnel</a></li>
-        <li class="navlink">Nous Contacter</li>
+        <li class="navlink"><a style="color:white;text-decoration:none;" href="https://sleever-machines.com">Nous Contacter</a></li>
     </ul>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
 </header>
 <div id='main' class='main'>
     <h2>S L E E V E R</h2>
@@ -61,6 +64,7 @@
     </div> -->
 
 </div>
+<p id="form-title">Contact Us through this form</p>
 <div class="form">
     <label>Name:</label>
     <input type="text" placeholder='type your name..'></input>
@@ -84,7 +88,7 @@
         <ul class="footer-nav">
             <li class="footer-link"><i class="fa-brands fa-square-twitter icon-footer"></i>Twitter</li>
             <li class="footer-link"><i class="fa-brands fa-linkedin icon-footer"></i>LinkedIn</li>
-            <li class="footer-link"><i class="fa-brands fa-square-github icon-footer"></i>GitHub</li>
+            <li class="footer-link"><i class="fa-brands fa-square-github icon-footer"></i><a style="text-decoration:none;color:white;" href="https://sleever-int.github.io/">GitHub</a></li>
         </ul>
     </div>
     <!--<p id="text-copyright">Copyright: <span id="copyright"></span> ©</p>-->
