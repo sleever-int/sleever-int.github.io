@@ -91,7 +91,7 @@
     }
     
     .projects {
-        background-color: #D9DFE8;
+        background-color: white;
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
@@ -117,6 +117,8 @@
         background-color: #007bc8;
         transform:scale(1.2);
     }
+
+
     
     .card {
         display: flex;
@@ -139,9 +141,9 @@
     
     
     .card:hover{
-        transform: scale(1.15);
-        border: 3px solid #007bc8;
-        background-color: #EDF2F4;
+        transform: scale(1.1);
+        border: 3px solid rgb(0, 123, 200);
+        background-color: rgba(0, 123, 200,0.1);
     }
     
     .background-image {
@@ -182,7 +184,7 @@
     
     
     h3{
-        background-color: #D9DFE8;
+        background-color: white;
         color:#007bc8;
         width: 100%;
         display: flex;
@@ -194,26 +196,32 @@
     }
     
     .form{
-        background-color: #8D99AE;
+        background-color: white;
+        margin: 0 auto;
         left: 0;
         right:0;
         box-sizing: border-box;
-        padding-top: 15px;
+        padding-top: 35px;
         height:70px;
         padding-left: 10vw;
         padding-right: 10vw;
         display: flex;
         justify-content: left;
         align-items: center;
-        padding-bottom: 15px;
+        padding-bottom: 35px;
         width: 100%;
+        border-top: #007bc8 3px solid;
+        border-bottom: #007bc8 3px solid;
+        width:75%;
+        margin-top:50px;
+        margin-bottom: 50px;
     
     }
     
     .form label {
         margin-right: 10px;
         font-size: 1.3rem;
-        color:#540D6E;
+        color:#007bc8;
         font-weight: bold;
     }
     
@@ -251,7 +259,8 @@
         font-size: 1.05rem;
     }
     footer{
-        background-color: white;
+        background-color: #007bc8;
+        border-top: #007bc8 1px solid;;
         width:100%;
         padding-top: 10px;
         padding-bottom: 5px;
@@ -259,6 +268,9 @@
         justify-content: space-between;
         align-items: center;
         
+    }
+    .footer-nav li {
+        color:white;
     }
     
     .footer-link {
